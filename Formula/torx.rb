@@ -7,20 +7,20 @@ class Torx < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/flippedpants/torx/releases/download/v#{version}/torx-aarch64-apple-darwin.tar.gz"
-      sha256 "7c91b41140281f6977b6660ede188163131d6ac084fd63f0a32edf38d41f0704"
+      sha256 "ebd8f106c9605da18b9a8337a72edec04041d3bd00942a246e5b72852290006a"
     else
       url "https://github.com/flippedpants/torx/releases/download/v#{version}/torx-x86_64-apple-darwin.tar.gz"
-      sha256 "da4f88d780a52888ed8b769f65a057efe6c79d51859a42efe085ed2edc31bb10"
+      sha256 "876b5ec4191d9c9bb8d8b0c5ebc69ace5d218842356c50284aa0dbed503ce78f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
         url "https://github.com/flippedpants/torx/releases/download/v#{version}/torx-aarch64-unknown-linux-gnu.tar.gz"
-        sha256 "06cd3d80e40d7e88e93d5758d71c22cc9dbc2e915b379976fc6ce1ad20e92688"
+        sha256 "5753357bfd31437bdf66eb1ca7297b981ea87c1d16ddac38cb8971540a4d1510"
     else
         url "https://github.com/flippedpants/torx/releases/download/v#{version}/torx-x86_64-unknown-linux-gnu.tar.gz"
-        sha256 "cc1c0bd7c36b17fcc79701e0d5ffaae632d1524456957734b963c202b0145884"
+        sha256 "05e882ac83159fe7d514f012ea383b7a6ad65043a204b42f1f68a17a0b538d4e"
     end
   end
 
