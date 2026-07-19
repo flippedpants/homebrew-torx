@@ -1,7 +1,7 @@
 class Torx < Formula
   desc "BitTorrent client made in rust with concurrent multi-peer downloading"
   homepage "https://github.com/flippedpants/torx"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
